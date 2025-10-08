@@ -1,20 +1,15 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <title>CheerpJ test</title>
-    <script src="https://cjrtnc.leaningtech.com/4.2/loader.js"></script>
+    <script src="https://cjrtnc.leaningtech.com/2.3/loader.js"></script>
 </head>
-
 <body>
     <script>
-        (async function() {
-            await cheerpjInit();
-            cheerpjCreateDisplay(800, 600);
-            await cheerpjRunJar("/alpha-decay_en.javascript");
-        })();
+        cheerpjInit();
+        cheerpjCreateDisplay(800, 600); // Adjust dimensions as needed
+        cheerpjRunJar("/app/radioactive-dating-game_en.jar"); // Replace with your JAR filename
     </script>
 </body>
-
 </html>
